@@ -58,3 +58,7 @@ var e,f int = 1,2
 // short hand declaration
 g:= "Give it up"
 ```
+
+### Constants
+* Go supports constants for float, string, bool & numeric values using `const` keyword
+* Const values must be know an complie time. So something like `const curTime = time.Now()` because time.Now() values is determined at run time.
