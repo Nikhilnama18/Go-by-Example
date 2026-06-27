@@ -41,3 +41,20 @@ Hands on code for Go-by-Example
 
 * Value type are: int, float, bool, array, struct
 * Reference type are: slice, map, func, pointer, interface
+
+### Declaring a variable
+* Go is statically typed lang, so every var has a type at complie time.
+* There are multiple ways to declare & initialise a variable with value.
+
+```go
+var a = "Hello, Nikhil"
+var b string
+b = "Hello"
+var c,d int
+c = 2 
+d = 3
+var e,f int = 1,2
+
+// short hand declaration
+g:= "Give it up"
+```
