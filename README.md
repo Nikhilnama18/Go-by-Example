@@ -77,3 +77,12 @@ if i:=10; i%10==0 {
 ```
 * `Switch` state is again similar to other languages.
 * We have cases that match up given value or default condition that acts a fallback.
+
+### Collections
+* To store group of elements of similar type, Go provides 3 types of collections
+* `Array` - Fixed length collection of similar data type
+* `Slice` - Variable length collection of similar data type
+* `Map` - Key value pair collection
+
+* `Slice` is used widely for a collection of similar data type over array.
+* `Map` is also of variable length but types must be specified earlier
