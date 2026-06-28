@@ -11,6 +11,10 @@ func newPerson(name string, age int) *Person {
 	return &Person{name: name, age: age}
 }
 
+func (r *Person) ageUpdater() {
+	r.age+=5
+}
+
 func main() {
 
 	fmt.Println("Person is ", Person{"Nikhil", 20})
@@ -45,4 +49,8 @@ func main() {
 	}
 
 	fmt.Println("New dog in town is ", dog)
+
+	p1.ageUpdater();
+
+	fmt.Println("Updated age of p1 is ", p1);
 }
