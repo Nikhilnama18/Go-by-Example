@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
-func zeroVal( val int){
+func zeroVal(val int) {
 	val = 0
 }
 
-func zeroValPtr( val *int){
+func zeroValPtr(val *int) {
 	*val = 0
 }
 
-func main(){
+func main() {
 
 	num := 5
 	fmt.Println("Original value: ", num)
@@ -20,5 +20,5 @@ func main(){
 	zeroValPtr(&num)
 	fmt.Println("Value after zeroValPtr: ", num)
 
-	fmt.Println("Address of num is: ",&num)
+	fmt.Println("Address of num is: ", &num)
 }

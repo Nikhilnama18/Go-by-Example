@@ -2,19 +2,19 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
-	i:= 1
-	for i <= 4{
+	i := 1
+	for i <= 4 {
 		fmt.Println("I is ", i)
 		i++
 	}
 
-	for j :=1; j<=4; j++ {
+	for j := 1; j <= 4; j++ {
 		fmt.Println("J is ", j)
 	}
 
-	for k := range 3{
+	for k := range 3 {
 		fmt.Println("K is ", k)
 	}
 
@@ -23,8 +23,7 @@ func main(){
 		break
 	}
 
-	
-	for n:= range 10 {
+	for n := range 10 {
 		if n%2 == 0 {
 			continue
 		}
