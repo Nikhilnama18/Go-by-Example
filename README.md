@@ -62,3 +62,18 @@ g:= "Give it up"
 ### Constants
 * Go supports constants for float, string, bool & numeric values using `const` keyword
 * Const values must be know an complie time. So something like `const curTime = time.Now()` because time.Now() values is determined at run time.
+
+### Conditional Statements
+* Go supports `if-else` & `switch` statements
+* `if-else` is quite similar to other languages
+* Condition can be written directly, no need for brackets. 
+* Go also allows use to initialise a variable as well ex: 
+```go
+if i:=10; i%10==0 { 
+    fmt.Println("I is an even number")
+}else {
+    fmt.Println("I is an odd number")
+}
+```
+* `Switch` state is again similar to other languages.
+* We have cases that match up given value or default condition that acts a fallback.
