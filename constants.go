@@ -7,7 +7,7 @@ import (
 
 const s = "Constanst String"
 
-func main(){
+func main() {
 	fmt.Println(s)
 
 	// s="New String" Throws error

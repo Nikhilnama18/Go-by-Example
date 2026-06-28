@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func main(){
-	
+func main() {
+
 	var a = "Hello, Nikhil"
 	fmt.Println(a)
 
@@ -16,6 +16,6 @@ func main(){
 	var e int
 	fmt.Println(e)
 
-	f:= "Short hand declaration"
+	f := "Short hand declaration"
 	fmt.Println(f)
 }

@@ -12,7 +12,7 @@ func newPerson(name string, age int) *Person {
 }
 
 func (r *Person) ageUpdater() {
-	r.age+=5
+	r.age += 5
 }
 
 func main() {
@@ -50,7 +50,7 @@ func main() {
 
 	fmt.Println("New dog in town is ", dog)
 
-	p1.ageUpdater();
+	p1.ageUpdater()
 
-	fmt.Println("Updated age of p1 is ", p1);
+	fmt.Println("Updated age of p1 is ", p1)
 }
