@@ -86,3 +86,21 @@ if i:=10; i%10==0 {
 
 * `Slice` is used widely for a collection of similar data type over array.
 * `Map` is also of variable length but types must be specified earlier
+
+### Functions
+* Go supports functions, closures
+* But we cannot write named functions inside a funciton
+```go 
+func main() {
+    func add(a int, b int) int { // invalid
+        return a + b
+    }
+}
+
+func add(a int, b int) int {
+    return a + b
+}
+func main(){
+    a: add(1, 2) //valid
+}
+```
