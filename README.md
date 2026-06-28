@@ -104,3 +104,31 @@ func main(){
     a: add(1, 2) //valid
 }
 ```
+
+### Pointers
+* Go has pointers similar to C & C++
+* They hold the address of the avariable
+* `*` is used to for a variable that hold address, `&` can be used to get address of a variable
+```go
+a:=10
+
+p:= &a
+
+*p = 20
+
+// a is 20
+// *p is 20
+```
+
+### Struct
+* Using `struct` we can define own data types in Go
+* We can add methods add methods to those data type as well
+```go
+type rectange struct {
+    width, height int
+}
+
+func (rec *rectangle) area() int{
+    return rec.width * rec.hieght
+}
+```
